@@ -1,0 +1,21 @@
+
+@import "variables";
+@import "normalize";
+@import "mixins";
+@import "base";
+
+@import "modules/backgrounds";
+@import "modules/media";
+
+@media screen and (min-width: 420px) { // USE OF MEDIA QUERIES
+    img {
+        float: right;
+        margin: 0 0 .5rem .5rem;
+    }
+}
+@media screen and (min-width: 500px){
+    img {
+        float: right;
+        margin: 0 0 .5rem .5rem;
+    }
+}

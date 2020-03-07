@@ -1,0 +1,26 @@
+html { // USE OF A PARTIAL
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    
+    font-family: $font-body, sans-serif;
+    color: $text-color;
+    background-color: $background;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: $orange;
+    font-family: $font-headings, cursive;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; // USE OF FLEX
+}
+#jumbotron {
+    color: $text-color;
+}

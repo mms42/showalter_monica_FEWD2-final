@@ -1,0 +1,38 @@
+.background {
+    color: $background;
+    margin: 20px 0;
+    width: 100%;
+    display: table;
+    
+    .container {
+        display: table-cell flex; // USE OF FLEX
+        vertical-align: bottom;
+        padding-bottom: 20px;
+
+        h1 {
+            color: $text-color;
+            font-family: $font-headings;
+            font-size: 5rem;
+            line-height: 105%;
+            margin-bottom: 0;
+            padding: 0 10%;
+        }
+        p {
+            padding: 0 10%;
+            margin-top: 0;
+        }
+    }
+}
+.jumbotron {
+    // background-color: $darkblue;
+    @include backImage('../images/645poppybackground800x600.png', 400);
+    height: 500px;
+    font-size: 1.75rem;
+    font: $text-color;
+    display: flex; // USE OF FLEX 
+}
+.growing {
+    @include backImage('../images/645seedlingtable600x450.png');
+    height: 600px;
+    text-align: end;
+}

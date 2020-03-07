@@ -1,0 +1,8 @@
+@mixin backImage($image, $height: 100vh) { // THIS PAGE IS WHERE MIXINS ARE STORED; ALSO, USE OF A PARTIAL
+    background: // tried linear gradient, it looked worse, got rid of it
+    url($image);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: $height;
+}
